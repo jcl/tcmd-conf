@@ -6,7 +6,7 @@
 Development TO-DO
 =================
 
-* [ ] Add LICENSE file.
+* [x] Add LICENSE file.
 
 
 IDEAS
