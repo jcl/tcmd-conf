@@ -1,0 +1,9 @@
+REGEDIT4
+
+; first, delete this key (recursively)
+[-HKEY_CURRENT_USER\SOFTWARE\Ghisler]
+
+; then, add the keys + values we want
+[HKEY_CURRENT_USER\SOFTWARE\Ghisler\Total Commander]
+"IniFileName"="%APPDATA%\\tcmd\\tcmd.ini"
+"FtpIniName"="%APPDATA%\\tcmd\\tcmd_ftp.ini"
