@@ -102,9 +102,9 @@ Procedure: Uninstall Total Commander and purge configuration etc. left behind
 
 .. admonition:: Purging per-user configuration for other user accounts:
 
-   Consider also purging the Total Commander configuration left heind for each
-   user account outside of the installer user account.  This essentially boils
-   down to executing this as each user account (in a cmd.exe shell)::
+   Consider also purging the Total Commander configuration left behind for
+   each user account outside of the installer user account.  This essentially
+   boils down to executing this as each user account (in a cmd.exe shell)::
 
        rmdir /s /q "%APPDATA%\GHISLER"
        rmdir /s /q "%APPDATA%\tcmd"
